@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "381849585126",
+    "firebase_url": "https://grad-cf348-default-rtdb.firebaseio.com",
+    "project_id": "grad-cf348",
+    "storage_bucket": "grad-cf348.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381849585126:android:b07b3d25363dda0e21c227",
+        "android_client_info": {
+          "package_name": "com.example.grad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381849585126-iqnrkijvcfqsd8t0c9ekalinfpflv8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA_dTn4PSLVu0LO9M1Uy4Dm2A3RaOoPi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381849585126-iqnrkijvcfqsd8t0c9ekalinfpflv8ja.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
