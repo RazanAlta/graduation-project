@@ -10,40 +10,44 @@ class MainPage extends StatefulWidget {
   const MainPage({Key? key}) : super(key: key);
 
   @override
-  _Main_PageState createState() => _Main_PageState();
+  _Main_PageState createState () => _Main_PageState();
 }
 
 class _Main_PageState extends State<MainPage> {
+  get image => null;
+
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
         appBar: AppBar(
         leading: IconButton(
         onPressed: () {},
     icon: image.asset("assets/icons/menu.svg"),
     ),
-    title: Row(
+          title: Row(
     mainAxisAlignment: MainAxisAlignment.center,
     children: [
     image.asset("assets/icons/Location.svg"),
-    const SizedBox(width: defaultPadding / 2),
+    const SizedBox(width: 50),
     Text(
     "15/2 New Texas",
     style: Theme.of(context).textTheme.bodyText1,
     ),
     ],
     ),
-      body: SingleChildScrollView(
-        child: Column(
+        ),
+        body: SingleChildScrollView(
+                      child: Column(
 
-          children: [Container(
-              child: Container(
-                margin: EdgeInsets.only(top: 45,bottom: 15),
-                  padding: EdgeInsets.only(left: 20, right: 20),
+                           children: [Container(
+                               child: Container(
+                                   margin: EdgeInsets.only(top: 45,bottom: 15),
+                                   padding: EdgeInsets.only(left: 20, right: 20),
 
 
 
-                  child: Row(
+                                  child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
 
                       children: [
@@ -93,6 +97,7 @@ Row(children: [
         ),
 
             )
-         );
+
+    );
   }
 }
