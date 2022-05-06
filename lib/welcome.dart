@@ -18,15 +18,16 @@ class _WelcomeState extends State<Welcome> {
   Widget build(BuildContext context) {
     return Scaffold( 
       resizeToAvoidBottomInset: false,
-      backgroundColor: Color(0xfff7f6fb) ,
+      backgroundColor: Color(0xffffffff) ,
       body: SafeArea(
         child: Padding(
           padding: EdgeInsets.symmetric(vertical: 24, horizontal: 32),
           child: Column(
             children: [
               Image.asset(
-                'images/Ask-the-midwife-logo.png',
-               width:240,
+                'assets/image/undraw_baby.png',
+               width:370,
+                height: 370,
               ),
               SizedBox(
                 height: 18,
@@ -65,7 +66,7 @@ class _WelcomeState extends State<Welcome> {
                     foregroundColor: 
                         MaterialStateProperty.all<Color>(Colors.white),
                     backgroundColor:
-                        MaterialStateProperty.all<Color>(Colors.blue),
+                        MaterialStateProperty.all<Color>(Color(0xff00c3e9)),
                     shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                       RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(24),

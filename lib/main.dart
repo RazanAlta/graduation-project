@@ -1,11 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:grad/MainPage/MainPage.dart';
-import 'package:grad/Screens/Wrapper.dart';
+import 'package:grad/DashBoard.dart';
 //import 'package:firebase_core/firebase_core.dart';
 //import 'firebase_options.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:grad/welcome.dart';
+import 'firebase_options.dart';
 
+Future<void> main() async {
 
-void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.android );
+
   runApp(const MyApp());
 }
 
@@ -16,7 +21,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Wrapper(),);
+      debugShowCheckedModeBanner: false,
+
+      home: Welcome(),
+    );
 
   }
 }
