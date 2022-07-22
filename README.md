@@ -10,6 +10,9 @@ System architecture:
 
 
 Results:
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/65066845/180576551-d888a5e3-fed1-4264-b644-9b20949e19e9.png">
+<img width="698" alt="image" src="https://user-images.githubusercontent.com/65066845/180576640-b1fcf0da-3ef1-4183-b3ff-b7c35310f06d.png">
+
 ![image](https://user-images.githubusercontent.com/65066845/180575371-fbb04165-a939-4531-9ecd-1b0f2da03796.png)
 ![image](https://user-images.githubusercontent.com/65066845/180575358-2de0d0c5-c21c-4ff6-9cbc-1bdbc588984b.png)
 
