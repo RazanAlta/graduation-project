@@ -2,7 +2,8 @@
 
 
 
-Caru is a Monitoring System that captures pulse and tempereture, using sesnsors and Esp8266 Nodemcu then displays the data on an android application. Built using Flutter
+Caru is a Monitoring System that captures pulse and tempereture, using sesnsors and Esp8266 Nodemcu then displays the data on an android application, Built using Flutter.
+
 
 System architecture:
 
