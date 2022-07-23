@@ -1,5 +1,4 @@
-#Intelligent Neonatal Monitoring System Based on Android Application using
-Multi Sensors.
+#Intelligent Neonatal Monitoring System Based on Android Application using Sensors.
 
 ![image](https://user-images.githubusercontent.com/65066845/180574923-236ca935-9101-468b-b951-fbaf53226354.png)
 
