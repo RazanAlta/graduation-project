@@ -1,6 +1,6 @@
 #Intelligent Neonatal Monitoring System Based on Android Application using Sensors.
 
-![image](https://user-images.githubusercontent.com/65066845/180574923-236ca935-9101-468b-b951-fbaf53226354.png)
+
 
 Caru is a Monitoring System that captures pulse and tempereture, using sesnsors and Esp8266 Nodemcu then displays the data on an android application. Built using Flutter
 
